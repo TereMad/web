@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+<style type="text/css">
+#eao {
+	-webkit-transition: all 1s .1s;
+	-moz-transition: all 1s .1s;
+	-ms-transition: all 1s .1s;
+	-o-transition: all 1s .1s;
+	transition: all 1s .1s;
+}
+#eao:hover {
+	color: #CC0066;
+}
+</style>
+</head>
+
+<body>
+<form name="form" id="form">
+  <select name="jumpMenu" id="jumpMenu">
+    <option value="inicio.html">Creación y Confeccion de Prendas</option>
+    <option value="file:///C|/Users/52552/Documents/Paginas Web/EDAYO/Sistemas Informaticos.html">Sistemas Informaticos</option>
+    <option value="file:///C|/Users/52552/Documents/Paginas Web/EDAYO/Estilismo y Diseño de imagen.html">Estilismo y Diseño de Imagen</option>
+  </select>
+  <input type="button" name="go_button" id= "go_button" value="Ir" onclick="MM_jumpMenuGo('jumpMenu','parent',1)" />
+</form>
+<p>&nbsp;</p>
+<form name="form2" id="form2">
+  <select name="jumpMenu2" id="jumpMenu2" onchange="MM_jumpMenu('parent',this,1)">
+    <option value="inicio.html">inicio</option>
+    <option value="index.html">entrada</option>
+    <option value="menu.html">menu</option>
+  </select>
+</form>
+<p id="Edayo">EDAYO Jaltenco</p>
+<p id="eao">Escuela de Artes y Oficios</p>
+<p id="icati">ICATI</p>
+<form id="form1" name="form1" method="post" action="">
+  <table width="305" height="217" border="0">
+    <tr>
+      <td width="67"><label>Nombre</label></td>
+      <td width="228"><input type="text" name="nombre" id="nombre" /></td>
+    </tr>
+    <tr>
+      <td><label>Apellidos</label></td>
+      <td><input type="text" name="Apellidos" id="Apellidos" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

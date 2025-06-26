@@ -1,0 +1,144 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documento sin título</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="PRUEBA_CUADRICALA.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.titulo {
+	color: #060;
+}
+</style>
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('Imagenes/img2.jpg','Imagenes/img1.jpg','Imagenes/img3.jpg')">
+<div class="gridContainer clearfix">
+  <div id="cabecera">
+    <h1 class="titulo">EDAYO Alborada Jaltenco</h1>
+    <form name="form" id="form">
+      <select name="jumpMenu" id="jumpMenu" onChange="MM_jumpMenu('parent',this,0)">
+        <option value="Imagenes/estilismo/belleza2.jpg">Estilismo y Diseño de Imagen</option>
+        <option>Confección y Creación de Prendas</option>
+      </select>
+    </form>
+    <p><img src="Imagenes/img1.jpg"></p>
+  </div>
+  <div id="Titulo">Escuela de Artes y Oficios Jaltenco</div>
+  <div id="Informacion">
+    <p>Dirección: Boulevard Sor Juana Inés de la Cruz s/n,</p>
+    <p> col. Unidad Provivienda, Comunidad Alborada,</p>
+    <p> C.P.: 55780, Jaltenco, Estado de México.</p>
+    <hr>
+    <p>&nbsp;</p>
+    <p> Teléfono: 55 58 97 79 20</p>
+    <p> Director: L.D. Francisco Javier Espinosa Sánchez</p>
+    <p> Correo: edayo.jaltenco@edomex.gob.mx</p>
+    <p> Áreas de Capacitación:</p>
+    <p> Creación y Confección de Prendas.</p>
+    <p> Estilismo y Diseño de Imagen. </p>
+    <p>Sistemas Informáticos.</p>
+    <hr align="center" noshade>
+    <p>&nbsp;</p>
+    <h1> Requisitos: </h1>
+    <p>1 Copia de acta de nacimiento.</p>
+    <p> 1 Copia de la última constancia de estudios.</p>
+    <p> 1 Copia de comprobante de domicilio.</p>
+    <p> 1 Copia de la CURP con código QR.</p>
+    <p> 2 Fotografías tamaño infantil.</p>
+    <p> 1 Folder tamaño oficio color beige.</p>
+    <p> Edad mínima 15 años cumplidos.</p>
+    <p> Menores de 18 años, llenar y traer la carta responsiva del padre o tutor, descargar aquí.</p>
+    <p> Mayores de 18 años, copia de identificación oficial vigente con fotografía.</p>
+    <p> Llenar el formato de inscripción, <a href="formato de inscripcion.pdf">Descargar aquí.</a></p>
+    <p>Carta Responsiva para menores de Edad <a href="carta responsiva (inscripcion).pdf">Descarga aquí</a></p>
+    <hr align="center" noshade>
+    <p>&nbsp;</p>
+  </div>
+  <div id="galeria">
+    <table width="574" border="0" align="center">
+      <tr>
+        <td width="176" align="center" valign="top"><p><img src="Imagenes/img2.jpg" name="f1" width="46" height="35" id="f1" onMouseOver="MM_swapImage('grande','','Imagenes/img2.jpg',1)"></p>
+          <p>&nbsp;</p>
+        <p><img src="Imagenes/img1.jpg" name="f2" width="46" height="35" id="f2" onMouseOver="MM_swapImage('grande','','Imagenes/img1.jpg',1)"></p>
+        <p>&nbsp;</p>
+        <p><img src="Imagenes/img3.jpg" name="f3" width="46" height="35" id="f3" onMouseOver="MM_swapImage('grande','','Imagenes/img3.jpg',1)"></p>
+        <p>&nbsp;</p></td>
+        <td width="388" align="center" valign="middle"><img src="Imagenes/img1.jpg" name="grande" id="grande"></td>
+      </tr>
+    </table>
+    <hr align="center" noshade>
+    <p>&nbsp;</p>
+  </div>
+  <div id="pie"> 
+    <h1 onMouseOver="MM_popupMsg('Para mayores Informes Comunicate al:\r55 58977920')">Horarios:</h1>
+    <p> 1. De Lunes a Viernes</p>
+    <p> 08:00 a 11:00 hrs. 11: 00 a 14:00 hrs.</p>
+    <p> 14:00 a 17:00 hrs. </p>
+    <p>2.Sábados 08:00 a 12:00 hrs.</p>
+    <p> 12:00 a 16:00 hrs.</p>
+    <p> Formato de inscripcion <a href="formato de inscripcion.pdf">Descarga aquí</a></p>
+    <p>Formato para Padre o tutor en caso ser menor de edad<a href="carta responsiva (inscripcion).pdf"> Descarga aquí</a></p>
+    <p>Ubicacion</p>
+    <p>&nbsp;</p>
+    <center>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.2665262144133!2d-99.06867168255616!3d19.65863140000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f3e6d28bbec1%3A0x12111fe283ee16ec!2sEdayo%20Jaltenco!5e0!3m2!1ses!2smx!4v1652132037529!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+  </div>
+  <div id="pie2">
+    <p><img src="Imagenes/QR.png" width="203" height="199" onMouseOver="MM_popupMsg('Scanea Nuestro QR para visitar nuestra página Facebook')" align="right"></p>
+    <p><img src="Imagenes/pie_pag.png" alt="" width="880"></p>
+  </div>
+</div>
+</body>
+</html>
